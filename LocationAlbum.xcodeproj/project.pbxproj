@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D27FD9A829E2D8AF00325E70 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD9A729E2D8AF00325E70 /* CategoryPickerViewController.swift */; };
+		D2E6BD8C29E3CB62006421FC /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E6BD8B29E3CB62006421FC /* HudView.swift */; };
+		D2E6BD8E29E4331C006421FC /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E6BD8D29E4331C006421FC /* Functions.swift */; };
 		DD72D1A426A4AF850043F935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72D1A326A4AF850043F935 /* AppDelegate.swift */; };
 		DD72D1A626A4AF850043F935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72D1A526A4AF850043F935 /* SceneDelegate.swift */; };
 		DD72D1A826A4AF850043F935 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72D1A726A4AF850043F935 /* CurrentLocationViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		D27FD9A729E2D8AF00325E70 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		D2E6BD8B29E3CB62006421FC /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		D2E6BD8D29E4331C006421FC /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DD72D1A026A4AF850043F935 /* LocationAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD72D1A326A4AF850043F935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD72D1A526A4AF850043F935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				DD72D1AC26A4AF850043F935 /* LocationAlbum.xcdatamodeld */,
 				DDCA433526AD75240029684E /* LocationDetailsViewController.swift */,
 				D27FD9A729E2D8AF00325E70 /* CategoryPickerViewController.swift */,
+				D2E6BD8B29E3CB62006421FC /* HudView.swift */,
+				D2E6BD8D29E4331C006421FC /* Functions.swift */,
 			);
 			path = LocationAlbum;
 			sourceTree = "<group>";
@@ -152,8 +158,10 @@
 				D27FD9A829E2D8AF00325E70 /* CategoryPickerViewController.swift in Sources */,
 				DD72D1A826A4AF850043F935 /* CurrentLocationViewController.swift in Sources */,
 				DD72D1A426A4AF850043F935 /* AppDelegate.swift in Sources */,
+				D2E6BD8E29E4331C006421FC /* Functions.swift in Sources */,
 				DD72D1AE26A4AF850043F935 /* LocationAlbum.xcdatamodeld in Sources */,
 				DD72D1A626A4AF850043F935 /* SceneDelegate.swift in Sources */,
+				D2E6BD8C29E3CB62006421FC /* HudView.swift in Sources */,
 				DDCA433626AD75240029684E /* LocationDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
